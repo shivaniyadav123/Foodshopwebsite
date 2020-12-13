@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#one{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #dcedf7;
+}
+#bottom1{
+    background-image: url(png-clipart-leaf-1-single-green-leaf-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    height: 90px;
+    top: 80%;
+    position: absolute;
+}
+#bottom2{
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    height: 90px;
+    right: 0%;
+    top: 10%;
+    position: absolute;
+    background-image: url(png-clipart-leaf-1-single-green-leaf-removebg-preview.png);
+}
+#bottom3{
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-image: url(wooden-chopstick-500x500-removebg-preview.png);
+    width: 15%;
+    height: 25%;
+    top: 47%;
+    right: 29%;
+}
+#one #nav{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+#nav h2{
+    position: relative;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    color: #a62424;
+}
+
+#nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #5e5fb2;
+}
+#icon {
+    margin-left: -90px;
+}
+#one #bottom{
+    width: 20%;
+    height: 15%;
+    left: 41%;
+    bottom: -5%;
+    position: absolute;
+}
+#bottom h2{
+    font-size: 18px;
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-weight: 850;
+}
+#bottom button{
+    width: 150px;
+    height: 33px;
+    border-radius: 40px;
+    background-color: #5e5fb2;
+    border: none;
+    color: white;
+    left: 20%;
+    font-size: 12px;
+    top: 29%;
+    position: relative;
+}
+#left{
+    position: absolute;
+    width: 30%;
+    height: 45%;
+    left: 20%;
+    top: 25%;
+}
+
+#left h1{
+    font-size: 130px;
+    font-family: 'Charmonman', cursive;
+    left: 30px;
+    top: -10px;
+    position: relative;
+    color: #5e5fb2;
+}
+
+#left h4{
+    position: relative;
+    left: 47%;
+    top: -29%;
+    font-size: 23px;
+}
+#left p{
+    position: relative;
+    top: -28%;
+    font-size: 11px;
+    line-height: 16px;
+    left:10%;
+    font-weight: 650;
+    color: rgba(0, 0, 0, 0.952);
+}
+#left button{
+    width: 150px;
+    height: 33px;
+    border-radius: 40px;
+    background-color: #a62424;
+    border: none;
+    color: white;
+    left: 9%;
+    font-size: 12px;
+    top: -22%;
+    position: relative;
+}
+
+#right{
+    width: 20%;
+    height: 47%;
+    background-image: url(Group5.png);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    top: 24%;
+}
+
+
+#two{
+    width: 100%;
+    height: 55%;
+    background-color: rgb(255, 255, 255);
+}
+
+#two #img1{
+    background-image: url(Group\ 3.png);
+    background-position: center;
+    background-size: cover;
+    width: 15%;
+    height: 82%;
+    position: relative;
+    top: 20%;
+    left: 24%;
+}
+
+#two #box{
+    width: 28%;
+    height: 75%;
+    left: 45%;
+    top: -60%;
+    position: relative;
+}
+#box h3{
+    position: absolute;
+    top: 40px;
+    font-size: 15px;
+}
+#box h1{
+    font-family: 'Dancing Script', cursive;
+    top: 53px;
+    color: #5e5fb2;
+    font-size: 55px;
+    position: relative;
+    font-weight: 700;
+}
+
+#box p{
+    position: relative;
+    font-size: 13px;
+    top: 55px;
+    line-height: 18px;
+    font-weight: 550;
+
+}
+
+#box button{
+    width: 150px;
+    height: 33px;
+    border-radius: 40px;
+    background-color: #a62424;
+    border: none;
+    color: white;
+    font-size: 12px;
+    top: 24%;
+    position: relative;
+
+}
+
+#three{
+    display: inline-block;
+    width: 100%;
+    height: 60%;
+    background-color:  #5c5db0;
+}
+#three #left{
+    background-image: url();
+}
+#three #box2{
+    width: 20%;
+    height: 30%;
+    position: relative;
+    left: 42%;
+    top: 30px;
+}
+#box2 h2{
+    color: white;
+    font-size: 15;
+    left: 73px;
+    position: relative;
+}
+#box2 p{
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 11px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    line-height: 14px;
+}
+#four{
+    width: 100%;
+    height: 45%;
+    background-color: rgba(241, 241, 241, 0.815);
+}
+
+#four #leaf{
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    height: 90px;
+    left: 0%;
+    top: 215%;
+    position: absolute;
+    background-image: url(png-clipart-leaf-1-single-green-leaf-removebg-preview.png);
+}
+
+#four #rs{
+    width: 13%;
+    height: 31%;
+    right: 0%;
+    top: 223%;
+    position: absolute;
+    background-image: url(Family-Style-Veggie-Rice-Bowl-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#four #left1{
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 118%;
+    top: 20px;
+    position: relative;
+    left: 10%;
+    background-image: url(Group\ 1.png);
+
+}
+
+
+#left1 p{
+    font-size: 10px;
+    top: 23%;
+    left: 23%;
+    position: relative;
+    
+}
+
+#left1 img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 35%;
+    left: 40%;
+}
+#left1 h3{
+    position: relative;
+    font-size: 14px;
+    left: 55%;
+    color: #3b3dadbe;
+    top: 25%;
+}
+#left1 h4{
+    position: relative;
+    font-size: 12px;
+    left: 54%;
+    color: #2b9b88;
+    top: 26%;
+}#right1{
+    width: 20%;
+    height: 70%;
+    position: relative;
+    left: 50%;
+    top: -90%;
+}
+#right1 h1{
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+
+}
+#right1 p{
+    position: relative;
+    font-size: 12px;
+    color: black;
+    top: 13px;
+    font-weight: 400;
+}
+#right1 i{
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+}
+#five{
+    width: 100%;
+    height: 30%;
+    background-color: #3b3dad;
+}
+
+#five #left2{
+    line-height: 35px;
+    top: 30%;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    left: 15%;
+}
+#left2 h2{
+   color: white; 
+   font-weight: 400;
+}
+#left2 p{
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 13px;
+}
+#five #center2{
+    width: 25%;
+    height: 20%;
+    position: relative;
+    background-color: white;
+    left: 44%;
+    top: -15%;
+}
+#center2 h4{
+    top: 12px;
+    position: relative;
+    left: 20px;
+    font-weight: 200;
+}
+#center2 h3{
+    top: -9px;
+    position: relative;
+    left: 70%;
+    font-size: 16px;
+    color: #3b3dad;
+}
+#img3{
+ background-image: url(Family-Style-Veggie-Rice-Bowl-removebg-preview.png);
+ height: 370%;
+ width: 140px;
+ background-size: cover;
+ background-position: center;
+ position: relative;
+ left: 130%;
+ top: -210%;
+}
+#three #left{
+    background-image: url(Group\ 2.png);
+    background-position: center;
+    background-size: cover;
+    width: 13%;
+    height: 50.5%;
+    position: relative;
+    margin-top: -110px;
+}
+
+#three #center{
+    background-image: url(Group7.png);
+    width: 19%;
+    height: 57%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -100px;
+    left: 43%;
+}
+#three #right5{
+    background-image: url(Group\ 8.png);
+    background-position: center;
+    background-size: cover;
+    width: 19%;
+    height: 57%;
+    position: relative;
+    left: 68%;
+    margin-top: -15%;
+}
+#three #head2{
+    width: 15%;
+    height: 15%;
+
+    position: absolute;
+    left: 20%;
+    top: 200%;
+}
+#head2 h1{
+    font-size: 20px;
+    color: white;
+    left: 55px;
+    top: 10px;
+    position: relative;
+}
+#head2 h2{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.877);
+    left: 75px;
+    top: 14px;
+    position: relative;
+}
+#three #head3{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: 200%;
+    left: 44%;
+}
+#head3 h1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    left: 50px;
+    top: 10px;
+    position: relative;
+}
+#head3 h2{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.877);
+    left: 75px;
+    top: 14px;
+    position: relative;
+}
+#three #head4{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: 201%;
+    left: 70%;
+}
+#head4 h1{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    left: 50px;
+    top: 10px;
+    position: relative;
+}
+#head4 h2{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.877);
+    left: 75px;
+    top: 14px;
+    position: relative;
+}
